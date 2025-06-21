@@ -19,7 +19,21 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@atoms/*": ["./components/atoms/*"],
+      "@molecules/*": ["./components/molecules/*"],
+      "@organisms/*": ["./components/organisms/*"],
+      "@templates/*": ["./components/templates/*"],
+      "@styles/*": ["./styles/*"],
+      "@theme/*": ["./styles/theme/*"],
+      "@utils/*": ["./utils/*"],
+      "@assets/*": ["./public/assets/*"],
+      "@lib/*": ["./lib/*"],
+      "@ts/*": ["./types/*"],
+      "@dictionary/*": ["./dictionary/*"],
+      "@constants/*": ["./constants/*"],
+      "@hooks/*": ["./hooks/*"],
+      "@lang/*": ["./lang/*"],
+      "@firebaseProvider/*": ["./lib/firebase/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
